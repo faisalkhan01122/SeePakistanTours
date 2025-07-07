@@ -1,8 +1,9 @@
 import React from 'react'
+import BookingForm from '../components/BookingForm'
 
 const GetQuote = () => {
   return (
-    <div>GetQuote</div>
+    <div><BookingForm/></div>
   )
 }
 

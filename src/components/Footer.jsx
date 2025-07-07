@@ -26,15 +26,15 @@ const socialLinks = [
 
 const menuItems = [
   { href: "https://seepakistantours.com/", label: "Home" },
-  { href: "https://seepakistantours.com/honeymoons/", label: "Honeymoons" },
-  { href: "https://seepakistantours.com/group-tours/", label: "Group Tours" },
-  { href: "https://seepakistantours.com/hotels/", label: "Hotels In Pakistan" },
-  { href: "https://seepakistantours.com/car-rentals-2/", label: "Car Rentals" },
-  { href: "https://seepakistantours.com/traval-blog/", label: "Blog" },
-  { href: "https://seepakistantours.com/destinations/", label: "Destinations" },
+  { href: "/honeymoon-deals", label: "Honeymoons" },
+  { href: "/destination/foreigner-tours", label: "Foreigner Tours" },
+  { href: "/destination/1-day-tour", label: "1 Day Tours" },
+  { href: "/car-rentals-2/", label: "Car Rentals" },
+  // { href: "https://seepakistantours.com/traval-blog/", label: "Blog" },
+  { href: "/destinations", label: "Destinations" },
   {
-    href: "https://seepakistantours.com/destination/naran-kaghan-tours/",
-    label: "Naran Kaghan Tours",
+    href: "/destination/azad-kashmir-tours",
+    label: "Azad Kashmir Tours",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
         {/* Logo + Description + Social */}
         <div>
-          <a href="https://seepakistantours.com">
+          <a href="/">
             <img
               src="https://seepakistantours.com/wp-content/themes/seepakistanvt-child/img/spt-logo-web.png"
               alt="See Pakistan Tours"
@@ -61,7 +61,7 @@ export default function Footer() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-yellow-300 transition"
+                className="hover:text-primary-600 transition"
                 title={title}
               >
                 {imgSrc ? (
@@ -76,19 +76,19 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <h3 className="text-lg font-semibold mb-4 border-b border-yellow-400 pb-2">
+          <h3 className="text-lg font-semibold mb-4 border-b border-primary-600 pb-2">
             Contact Us
           </h3>
-          <p className="text-sm font-medium mb-2 text-yellow-200">Speak to our concierge team</p>
+          <p className="text-sm font-medium mb-2 text-primary-600">Speak to our concierge team</p>
           <p className="text-sm mb-2">
             📞{" "}
-            <a href="tel:+923105436581" className="hover:text-yellow-300 transition">
-              +92 310 5436 581
+            <a href="tel:+923480783052" className="hover:text-primary-400 transition">
+              +92 348 0783 052 
             </a>
           </p>
           <p className="text-sm mb-5">
             ✉️{" "}
-            <a href="mailto:sales@seepakistantours.com" className="hover:text-yellow-300 transition">
+            <a href="mailto:sales@seepakistantours.com" className="hover:text-primary-400 transition">
               sales@seepakistantours.com
             </a>
           </p>
@@ -101,7 +101,7 @@ export default function Footer() {
 
         {/* Links */}
         <div>
-          <h3 className="text-lg font-semibold mb-4 border-b border-yellow-400 pb-2">
+          <h3 className="text-lg font-semibold mb-4 border-b border-primary-600 pb-2">
             Quick Links
           </h3>
           <ul className="space-y-2 text-sm">
@@ -111,7 +111,7 @@ export default function Footer() {
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-yellow-300 transition"
+                  className="hover:text-primary-400 transition"
                 >
                   {label}
                 </a>
@@ -122,7 +122,7 @@ export default function Footer() {
 
         {/* Facebook Reviews */}
         <div>
-          <h3 className="text-lg font-semibold mb-4 border-b border-yellow-400 pb-2">
+          <h3 className="text-lg font-semibold mb-4 border-b border-primary-600 pb-2">
             Facebook Reviews
           </h3>
           <a

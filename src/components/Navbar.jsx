@@ -103,7 +103,7 @@ export default function Header() {
 
           {/* CTA */}
           <a
-            href="https://seepakistantours.com/get-a-quote/"
+            href="/get-a-quote"
             className="hidden md:inline-block bg-gradient-to-r from-primary-500 to-primary-600 text-black font-semibold px-4 py-2 rounded-md shadow hover:scale-105 transition transform"
           >
             Enquire Now
