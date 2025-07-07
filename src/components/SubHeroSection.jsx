@@ -38,7 +38,7 @@ const SubHeroSection = ({
         </div>
 
         {/* Right Card */}
-        <div className="bg-white rounded-2xl shadow-2xl p-8 space-y-6 border border-gray-100">
+        <div className="bg-white rounded-2xl shadow-2xl p-8 space-y-6 border border-primary-100">
           <p className="text-xs font-semibold text-primary-600 uppercase tracking-widest">
             {duration}
           </p>
