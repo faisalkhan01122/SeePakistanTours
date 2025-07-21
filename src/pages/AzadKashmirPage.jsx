@@ -10,44 +10,50 @@ const AzadKashmirPage = () => {
       id: 1,
       title: "Ratti Gali, Arang Kel & Taobat Tour",
       duration: "6 Days 5 Nights",
-      image: "https://seepakistantours.com/wp-content/uploads/2022/04/Ratti-Gali-Arang-Kel-6-Days-Tour-580x240.jpg",
-      link: "https://seepakistantours.com/destination/azad-kashmir-tours/ratti-gali-arang-kel-taobat-tour/"
+      image:
+        "https://seepakistantours.com/wp-content/uploads/2022/04/Ratti-Gali-Arang-Kel-6-Days-Tour-580x240.jpg",
+      link: "#",
     },
     {
       id: 2,
       title: "Neelum Valley & Nathia Gali Tour",
       duration: "5 Days 4 Nights",
-      image: "https://seepakistantours.com/wp-content/uploads/2022/04/Neelum-Galyat-5-Days-Tour-580x240.jpg",
-      link: "https://seepakistantours.com/destination/azad-kashmir-tours/neelum-murree-5-days-tour/"
+      image:
+        "https://seepakistantours.com/wp-content/uploads/2022/04/Neelum-Galyat-5-Days-Tour-580x240.jpg",
+      link: "#",
     },
     {
       id: 3,
       title: "Ratti Gali & Arang Kel Tour",
       duration: "5 Days 4 Nights",
-      image: "https://seepakistantours.com/wp-content/uploads/2022/04/Neelum-Ratti-Gali-5-Days-Tour-580x240.jpg",
-      link: "https://seepakistantours.com/destination/azad-kashmir-tours/ratti-gali-arang-kel-5-days-tour/"
+      image:
+        "https://seepakistantours.com/wp-content/uploads/2022/04/Neelum-Ratti-Gali-5-Days-Tour-580x240.jpg",
+      link: "#",
     },
     {
       id: 4,
       title: "Banjosa Lake & Ratti Gali Lake Tour",
       duration: "5 Days 4 Nights",
-      image: "https://seepakistantours.com/wp-content/uploads/2022/04/Banjosa-Neelum-5-Days-Tour-580x240.jpg",
-      link: "https://seepakistantours.com/destination/azad-kashmir-tours/banjosa-neelum-ratti-gali-5-days-tour/"
+      image:
+        "https://seepakistantours.com/wp-content/uploads/2022/04/Banjosa-Neelum-5-Days-Tour-580x240.jpg",
+      link: "#",
     },
     {
       id: 5,
       title: "Neelum Valley & Arang Kel Tour",
       duration: "4 Days 3 Nights",
-      image: "https://seepakistantours.com/wp-content/uploads/2022/04/Neelum-Arang-Kel-4-Days-Tour-580x240.jpg",
-      link: "https://seepakistantours.com/destination/azad-kashmir-tours/neelum-valley-arang-kel-4-days-tour/"
+      image:
+        "https://seepakistantours.com/wp-content/uploads/2022/04/Neelum-Arang-Kel-4-Days-Tour-580x240.jpg",
+      link: "#",
     },
     {
       id: 6,
       title: "Muzaffarabad & Neelum Valley Tour",
       duration: "4 Days 3 Nights",
-      image: "https://seepakistantours.com/wp-content/uploads/2022/04/Neelum-Muzaffarabad-4-Days-Tour-1-580x240.jpg",
-      link: "https://seepakistantours.com/destination/azad-kashmir-tours/muzaffarabad-neelum-valley-4days-tour/"
-    }
+      image:
+        "https://seepakistantours.com/wp-content/uploads/2022/04/Neelum-Muzaffarabad-4-Days-Tour-1-580x240.jpg",
+      link: "#",
+    },
   ];
 
   const popularPlaces = [
@@ -58,40 +64,45 @@ const AzadKashmirPage = () => {
     "Tolipir",
     "Banjosa Lake",
     "Mangla Dam",
-    "Pir Chinasi"
+    "Pir Chinasi",
   ];
 
   const cardVariants = {
     hover: {
       y: -10,
-      boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
-      transition: { duration: 0.3 }
+      boxShadow:
+        "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+      transition: { duration: 0.3 },
     },
     initial: {
       y: 0,
-      boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)"
-    }
+      boxShadow:
+        "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    },
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       {/* Hero Section */}
       <div className="relative h-[100vh] overflow-hidden">
-        <img 
-          src="https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Azad-Kashmir.jpg" 
-          alt="Azad Kashmir" 
+        <img
+          src="https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Azad-Kashmir.jpg"
+          alt="Azad Kashmir"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="text-center px-4"
           >
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Azad Kashmir Tours 2025</h1>
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+              Azad Kashmir Tours 2025
+            </h1>
             <p className="text-xl text-white max-w-2xl mx-auto">
-              Explore the breathtaking beauty of Azad Kashmir with our exclusive tour packages
+              Explore the breathtaking beauty of Azad Kashmir with our exclusive
+              tour packages
             </p>
           </motion.div>
         </div>
@@ -101,24 +112,35 @@ const AzadKashmirPage = () => {
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Main Content */}
           <div className="lg:w-2/3">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
               className="mb-12"
             >
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Visit AJK with Affordable Azad Kashmir Tour Packages 2025</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">
+                Visit AJK with Affordable Azad Kashmir Tour Packages 2025
+              </h2>
               <p className="text-gray-600 mb-4">
-                <strong>Azad Kashmir Tours</strong> is always excited for tourists from Pakistan and abroad when getting a chance to visit AJK. Most of the travelers get the Azad Kashmir tours package along with Pakistan tour packages.
+                <strong>Azad Kashmir Tours</strong> is always excited for
+                tourists from Pakistan and abroad when getting a chance to visit
+                AJK. Most of the travelers get the Azad Kashmir tours package
+                along with Pakistan tour packages.
               </p>
               <p className="text-gray-600 mb-4">
-                Commonly, known to be AJK, Azad Jammu and Kashmir is in the Northern areas of Pakistan. While there are some points from where you can see Indian Occupied Kashmir just on another side of the river like Keran village. We have a list of adventurous <strong>Azad Kashmir tours package 2025</strong>.
+                Commonly, known to be AJK, Azad Jammu and Kashmir is in the
+                Northern areas of Pakistan. While there are some points from
+                where you can see Indian Occupied Kashmir just on another side
+                of the river like Keran village. We have a list of adventurous{" "}
+                <strong>Azad Kashmir tours package 2025</strong>.
               </p>
             </motion.div>
 
             {/* Tours Grid */}
             <div className="mb-12">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Featured Tour Packages</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-6">
+                Featured Tour Packages
+              </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {tours.map((tour) => (
                   <motion.div
@@ -132,11 +154,16 @@ const AzadKashmirPage = () => {
                   >
                     <a href={tour.link} className="block">
                       <div className="relative h-48 overflow-hidden">
-                        <img 
-                          src={tour.image} 
-                          alt={tour.title} 
+                        <img
+                          src={tour.image}
+                          alt={tour.title}
                           className="w-full h-full object-cover transition-transform duration-500"
-                          style={{ transform: hoveredCard === tour.id ? 'scale(1.05)' : 'scale(1)' }}
+                          style={{
+                            transform:
+                              hoveredCard === tour.id
+                                ? "scale(1.05)"
+                                : "scale(1)",
+                          }}
                         />
                         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent h-20"></div>
                         <div className="absolute bottom-3 left-3 bg-primary-600 text-white px-3 py-1 rounded-md text-sm font-medium">
@@ -144,10 +171,14 @@ const AzadKashmirPage = () => {
                         </div>
                       </div>
                       <div className="p-4">
-                        <h3 className="text-lg font-semibold text-gray-800">{tour.title}</h3>
+                        <h3 className="text-lg font-semibold text-gray-800">
+                          {tour.title}
+                        </h3>
                         <motion.div
                           initial={{ width: 0 }}
-                          animate={{ width: hoveredCard === tour.id ? '100%' : '0%' }}
+                          animate={{
+                            width: hoveredCard === tour.id ? "100%" : "0%",
+                          }}
                           className="h-1 bg-primary mt-2"
                         ></motion.div>
                       </div>
@@ -159,7 +190,9 @@ const AzadKashmirPage = () => {
 
             {/* Popular Places */}
             <div className="mb-12">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Beautiful Places to Visit in Azad Kashmir</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-6">
+                Beautiful Places to Visit in Azad Kashmir
+              </h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
                 {popularPlaces.map((place, index) => (
                   <motion.div
@@ -175,16 +208,23 @@ const AzadKashmirPage = () => {
 
             {/* Weather Info */}
             <div className="bg-white p-6 rounded-xl shadow-sm mb-8">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Weather in Azad Kashmir</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+                Weather in Azad Kashmir
+              </h3>
               <p className="text-gray-600 mb-4">
-                <strong>Weather in Azad Kashmir</strong> varies by district. Mirpur and Bhimber districts are warmer in summer, while other areas have lower temperatures. Heavy snowfall occurs in Sudhnuti, Poonch, Bagh, and Neelum districts in winter.
+                <strong>Weather in Azad Kashmir</strong> varies by district.
+                Mirpur and Bhimber districts are warmer in summer, while other
+                areas have lower temperatures. Heavy snowfall occurs in
+                Sudhnuti, Poonch, Bagh, and Neelum districts in winter.
               </p>
               <div className="flex flex-wrap gap-4 mt-6">
                 <div className="flex-1 min-w-[200px] bg-blue-50 p-4 rounded-lg">
                   <div className="flex items-center gap-3">
                     <div className="text-primary-600 text-3xl">☀️</div>
                     <div>
-                      <h4 className="font-medium text-gray-800">Summer (May-Sep)</h4>
+                      <h4 className="font-medium text-gray-800">
+                        Summer (May-Sep)
+                      </h4>
                       <p className="text-gray-600 text-sm">15°C to 30°C</p>
                     </div>
                   </div>
@@ -193,7 +233,9 @@ const AzadKashmirPage = () => {
                   <div className="flex items-center gap-3">
                     <div className="text-primary-600 text-3xl">❄️</div>
                     <div>
-                      <h4 className="font-medium text-gray-800">Winter (Nov-Feb)</h4>
+                      <h4 className="font-medium text-gray-800">
+                        Winter (Nov-Feb)
+                      </h4>
                       <p className="text-gray-600 text-sm">-5°C to 15°C</p>
                     </div>
                   </div>
@@ -205,23 +247,27 @@ const AzadKashmirPage = () => {
           {/* Sidebar */}
           <div className="lg:w-1/3">
             {/* Review Card */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.5 }}
               className="bg-white rounded-xl shadow-md overflow-hidden mb-8"
             >
-              <a href="https://www.facebook.com/pg/SeePakistanTours/reviews/" target="_blank" rel="noopener noreferrer">
-                <img 
-                  src="https://seepakistantours.com/wp-content/uploads/2019/08/SPT-Facebook-Review-Graphic-Innerpage-2.jpg" 
-                  alt="Facebook Reviews" 
+              <a
+                href="#"
+                // target="_blank"
+                // rel="noopener noreferrer"
+              >
+                <img
+                  src="https://seepakistantours.com/wp-content/uploads/2019/08/SPT-Facebook-Review-Graphic-Innerpage-2.jpg"
+                  alt="Facebook Reviews"
                   className="w-full h-auto"
                 />
               </a>
             </motion.div>
 
             {/* Summary Card */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.6 }}
@@ -236,8 +282,12 @@ const AzadKashmirPage = () => {
                   <div className="flex items-center">
                     <div className="flex text-yellow-400 mr-2">
                       {[...Array(5)].map((_, i) => (
-                        <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                          <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                        <svg
+                          key={i}
+                          className="w-5 h-5 fill-current"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
                         </svg>
                       ))}
                     </div>
@@ -254,7 +304,9 @@ const AzadKashmirPage = () => {
                 </div>
                 <div className="flex items-center justify-between py-3 border-b border-gray-100">
                   <span className="text-gray-600">Starting From</span>
-                  <span className="font-medium text-primbg-primary-600">PKR 65,000</span>
+                  <span className="font-medium text-primbg-primary-600">
+                    PKR 65,000
+                  </span>
                 </div>
                 <div className="flex items-center justify-between py-3">
                   <span className="text-gray-600">Availability</span>
@@ -269,22 +321,26 @@ const AzadKashmirPage = () => {
             </motion.div>
 
             {/* Newsletter */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.7 }}
               className="bg-white rounded-xl shadow-md overflow-hidden mt-8 p-6"
             >
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Get Tour Updates</h3>
-              <p className="text-gray-600 mb-4">Subscribe to our newsletter for the latest deals and updates</p>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">
+                Get Tour Updates
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Subscribe to our newsletter for the latest deals and updates
+              </p>
               <form className="space-y-3">
-                <input 
-                  type="email" 
-                  placeholder="Your email address" 
+                <input
+                  type="email"
+                  placeholder="Your email address"
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-prim6text-primary-600"
                 />
-                <button 
-                  type="submit" 
+                <button
+                  type="submit"
                   className="w-full bg-primary-700 hover:bg-primary-800 text-white py-2 px-4 rounded-lg font-medium transition-colors"
                 >
                   Subscribe
@@ -294,7 +350,7 @@ const AzadKashmirPage = () => {
           </div>
         </div>
       </div>
-      <AzadKashmirContent/>
+      <AzadKashmirContent />
     </div>
   );
 };

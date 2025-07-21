@@ -13,13 +13,19 @@ const navItems = [
     link: "/destinations",
     dropdown: [
       { title: "Azad Kashmir Tours", link: "/destination/azad-kashmir-tours" },
-      { title: "Chitral Valley Tours", link: "/destination/chitral-valley-tours" },
-      { title: "Fairy Meadows Tours", link: "/destination/fairy-meadows-pakistan" },
-      { title: "Hunza Valley Tours", link: "/destination/hunza-valley-tours" },
-      { title: "Murree Tours", link: "/destination/murree-tours" },
-      { title: "Naran Kaghan Tours", link: "/destination/naran-kaghan-tours" },
-      { title: "Skardu Valley Tours", link: "/destination/skardu-valley-tours" },
-      { title: "Swat Valley Tours", link: "/destination/swat-valley-tours" },
+      {
+        title: "Chitral Valley Tours",
+        link: "/destination/chitral-valley-tours",
+      },
+      {
+        title: "Fairy Meadows Tours",
+        link: "/destination/fairy-meadows-pakistan",
+      },
+      // { title: "Hunza Valley Tours", link: "/destination/hunza-valley-tours" },
+      // { title: "Murree Tours", link: "/destination/murree-tours" },
+      // { title: "Naran Kaghan Tours", link: "/destination/naran-kaghan-tours" },
+      // { title: "Skardu Valley Tours", link: "/destination/skardu-valley-tours" },
+      // { title: "Swat Valley Tours", link: "/destination/swat-valley-tours" },
     ],
   },
   {
@@ -79,7 +85,7 @@ export default function Header() {
                       <Link
                         to={sub.link}
                         key={subIndex}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-primary-500 transition"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-500 hover:text-primary-500 transition"
                       >
                         {sub.title}
                       </Link>
@@ -129,7 +135,7 @@ export default function Header() {
             className="px-4 pb-4"
           >
             <form
-              action="https://seepakistantours.com"
+              action="#"
               method="get"
               className="flex justify-end max-w-7xl mx-auto"
             >
@@ -177,7 +183,7 @@ export default function Header() {
               </div>
             ))}
             <a
-              href="https://seepakistantours.com/get-a-quote/"
+              href="/get-a-quote"
               className="block text-center mt-4 bg-primary-500 hover:bg-primary-600 text-white py-2 rounded-full font-semibold transition"
             >
               Enquire Now

@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { useState } from "react"
+import { motion } from "framer-motion";
+import { useState } from "react";
 import {
   FaPhone,
   FaEnvelope,
@@ -15,7 +15,7 @@ import {
   FaPaperPlane,
   FaUser,
   FaComments,
-} from "react-icons/fa"
+} from "react-icons/fa";
 
 const ContactUsPage = () => {
   const [formData, setFormData] = useState({
@@ -24,60 +24,72 @@ const ContactUsPage = () => {
     phone: "",
     subject: "",
     message: "",
-  })
+  });
 
   const contactInfo = [
     {
       icon: FaPhone,
       title: "Phone Numbers",
-      details: ["+92 328 1969250", ],
+      details: ["+92 328 1969250"],
       color: "text-blue-600",
       bgColor: "from-blue-50 to-blue-100",
     },
     {
       icon: FaEnvelope,
       title: "Email Addresses",
-      details: ["info@akhuwat.org.pk", ],
+      details: ["info@akhuwat.org.pk"],
       color: "text-emerald-600",
       bgColor: "from-emerald-50 to-emerald-100",
     },
     {
       icon: FaMapMarkerAlt,
       title: "Head Office",
-      details: ["Akhuwat Islamic Microfinance", "House 45, Street 12, F-8/1", "Islamabad, Pakistan"],
+      details: [
+        "Akhuwat Islamic Microfinance",
+        "House 45, Street 12, F-8/1",
+        "Islamabad, Pakistan",
+      ],
       color: "text-purple-600",
       bgColor: "from-purple-50 to-purple-100",
     },
     {
       icon: FaClock,
       title: "Business Hours",
-      details: ["Monday - Friday: 9:00 AM - 6:00 PM", "Saturday: 9:00 AM - 2:00 PM", "Sunday: Closed"],
+      details: [
+        "Monday - Friday: 9:00 AM - 6:00 PM",
+        "Saturday: 9:00 AM - 2:00 PM",
+        "Sunday: Closed",
+      ],
       color: "text-orange-600",
       bgColor: "from-orange-50 to-orange-100",
     },
-  ]
+  ];
 
   const branches = [
     // { city: "Lahore", address: "92-A/1, Gulberg III, Lahore", phone: "+92 42 111 253 428" },
     // { city: "Karachi", address: "Plot 123, Block A, Gulshan-e-Iqbal, Karachi", phone: "+92 21 111 253 428" },
-    { city: "Islamabad", address: "House 45, Street 12, F-8/1, Islamabad", phone: "+92 328 1969250" },
+    {
+      city: "Islamabad",
+      address: "House 45, Street 12, F-8/1, Islamabad",
+      phone: "+92 328 1969250",
+    },
     // { city: "Faisalabad", address: "123 Civil Lines, Faisalabad", phone: "+92 41 111 253 428" },
     // { city: "Multan", address: "456 Cantt Area, Multan", phone: "+92 61 111 253 428" },
     // { city: "Peshawar", address: "789 University Road, Peshawar", phone: "+92 91 111 253 428" },
-  ]
+  ];
 
   const handleInputChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
-    })
-  }
+    });
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     // Handle form submission
-    console.log("Form submitted:", formData)
-  }
+    console.log("Form submitted:", formData);
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-gray-50 to-blue-50">
@@ -105,8 +117,12 @@ const ContactUsPage = () => {
                 <FaComments className="text-white text-2xl" />
               </div>
               <div className="text-left">
-                <span className="text-blue-600 font-bold text-xl block">Akhuwat Network</span>
-                <span className="text-gray-500 text-sm">Get in Touch With Us</span>
+                <span className="text-blue-600 font-bold text-xl block">
+                  Akhuwat Network
+                </span>
+                <span className="text-gray-500 text-sm">
+                  Get in Touch With Us
+                </span>
               </div>
             </motion.div>
 
@@ -117,7 +133,9 @@ const ContactUsPage = () => {
               transition={{ delay: 0.3, duration: 0.6 }}
             >
               Contact{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-600">Us</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-600">
+                Us
+              </span>
             </motion.h1>
 
             <motion.p
@@ -126,8 +144,9 @@ const ContactUsPage = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6 }}
             >
-              We're here to help you with all your questions and loan applications. Reach out to us through any of the
-              channels below, and our team will get back to you promptly.
+              We're here to help you with all your questions and loan
+              applications. Reach out to us through any of the channels below,
+              and our team will get back to you promptly.
             </motion.p>
           </motion.div>
         </div>
@@ -145,7 +164,9 @@ const ContactUsPage = () => {
           >
             <h2 className="text-5xl font-black text-gray-900 mb-8">
               Get in{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-600">Touch</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-600">
+                Touch
+              </span>
             </h2>
           </motion.div>
 
@@ -166,7 +187,9 @@ const ContactUsPage = () => {
                   >
                     <info.icon className="text-2xl" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">{info.title}</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">
+                    {info.title}
+                  </h3>
                   <div className="space-y-2">
                     {info.details.map((detail, i) => (
                       <p key={i} className="text-gray-700 text-sm">
@@ -195,13 +218,17 @@ const ContactUsPage = () => {
               <div className="bg-white rounded-3xl shadow-2xl p-12 border border-gray-100">
                 <div className="flex items-center gap-4 mb-8">
                   <FaPaperPlane className="text-3xl text-blue-600" />
-                  <h3 className="text-3xl font-bold text-gray-900">Send us a Message</h3>
+                  <h3 className="text-3xl font-bold text-gray-900">
+                    Send us a Message
+                  </h3>
                 </div>
 
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <label className="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">
+                        Full Name
+                      </label>
                       <div className="relative">
                         <FaUser className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" />
                         <input
@@ -217,7 +244,9 @@ const ContactUsPage = () => {
                     </div>
 
                     <div>
-                      <label className="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">
+                        Email Address
+                      </label>
                       <div className="relative">
                         <FaEnvelope className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" />
                         <input
@@ -235,7 +264,9 @@ const ContactUsPage = () => {
 
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <label className="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">
+                        Phone Number
+                      </label>
                       <div className="relative">
                         <FaPhone className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" />
                         <input
@@ -251,7 +282,9 @@ const ContactUsPage = () => {
                     </div>
 
                     <div>
-                      <label className="block text-sm font-semibold text-gray-700 mb-2">Subject</label>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">
+                        Subject
+                      </label>
                       <select
                         name="subject"
                         value={formData.subject}
@@ -261,7 +294,9 @@ const ContactUsPage = () => {
                       >
                         <option value="">Select a subject</option>
                         <option value="loan-inquiry">Loan Inquiry</option>
-                        <option value="application-status">Application Status</option>
+                        <option value="application-status">
+                          Application Status
+                        </option>
                         <option value="general-support">General Support</option>
                         <option value="complaint">Complaint</option>
                         <option value="partnership">Partnership</option>
@@ -270,7 +305,9 @@ const ContactUsPage = () => {
                   </div>
 
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Message</label>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Message
+                    </label>
                     <textarea
                       name="message"
                       value={formData.message}
@@ -305,19 +342,25 @@ const ContactUsPage = () => {
             >
               {/* Map Placeholder */}
               <div className="bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Find Our Head Office</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                  Find Our Head Office
+                </h3>
                 <div className="bg-gray-200 rounded-2xl h-64 flex items-center justify-center">
                   <div className="text-center">
                     <FaMapMarkerAlt className="text-4xl text-gray-400 mx-auto mb-4" />
                     <p className="text-gray-600">Interactive Map</p>
-                    <p className="text-sm text-gray-500">92-A/1, Gulberg III, Lahore</p>
+                    <p className="text-sm text-gray-500">
+                      92-A/1, Gulberg III, Lahore
+                    </p>
                   </div>
                 </div>
               </div>
 
               {/* Quick Contact */}
               <div className="bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Quick Contact</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                  Quick Contact
+                </h3>
                 <div className="space-y-4">
                   <motion.a
                     href="tel:+923281969250"
@@ -339,7 +382,9 @@ const ContactUsPage = () => {
                     <FaWhatsapp className="text-emerald-600 text-xl" />
                     <div>
                       <p className="font-semibold text-gray-900">WhatsApp</p>
-                      <p className="text-sm text-gray-600">Chat with us instantly</p>
+                      <p className="text-sm text-gray-600">
+                        Chat with us instantly
+                      </p>
                     </div>
                   </motion.a>
 
@@ -351,7 +396,9 @@ const ContactUsPage = () => {
                     <FaEnvelope className="text-purple-600 text-xl" />
                     <div>
                       <p className="font-semibold text-gray-900">Email Us</p>
-                      <p className="text-sm text-gray-600">info@akhuwat.org.pk</p>
+                      <p className="text-sm text-gray-600">
+                        info@akhuwat.org.pk
+                      </p>
                     </div>
                   </motion.a>
                 </div>
@@ -378,7 +425,8 @@ const ContactUsPage = () => {
               </span>
             </h2>
             <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Visit any of our branches across Pakistan for personalized assistance
+              Visit any of our branches across Pakistan for personalized
+              assistance
             </p>
           </motion.div>
 
@@ -397,7 +445,9 @@ const ContactUsPage = () => {
                   <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
                     <FaMapMarkerAlt className="text-white text-2xl" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">{branch.city}</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                    {branch.city}
+                  </h3>
                   <p className="text-gray-700 mb-4">{branch.address}</p>
                   <div className="flex items-center justify-center gap-2 text-blue-600 font-semibold">
                     <FaPhone className="text-sm" />
@@ -422,8 +472,9 @@ const ContactUsPage = () => {
           >
             <h2 className="text-4xl font-bold mb-8">Stay Connected</h2>
             <p className="text-xl text-blue-100 mb-12 leading-relaxed">
-              Follow us on social media for the latest updates, success stories, and financial tips. We're always here
-              to support your journey to financial empowerment.
+              Follow us on social media for the latest updates, success stories,
+              and financial tips. We're always here to support your journey to
+              financial empowerment.
             </p>
 
             <div className="flex justify-center gap-6 mb-12">
@@ -458,7 +509,7 @@ const ContactUsPage = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default ContactUsPage
+export default ContactUsPage;

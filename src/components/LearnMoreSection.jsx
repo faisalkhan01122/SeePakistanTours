@@ -18,12 +18,13 @@ const LearnMoreSection = () => {
           Want to Learn More?
         </h2>
         <p className="text-lg md:text-xl mb-10 font-light text-white/90 drop-shadow">
-          We’re here to help whether you need information or already have a travel program.
+          We’re here to help whether you need information or already have a
+          travel program.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a
-            href="https://api.whatsapp.com/send?phone=923105436581&text=Hi,%20Seepakistan%20Tours"
+            href="https://wa.me/923430762110"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 px-6 py-3 rounded-full bg-green-500 hover:bg-green-600 text-white font-semibold text-lg shadow-lg transition duration-300"
@@ -35,7 +36,7 @@ const LearnMoreSection = () => {
           <span className="text-white font-medium text-lg">or</span>
 
           <a
-            href="https://seepakistantours.com/get-a-quote/"
+            href="/get-a-quote"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 px-6 py-3 rounded-full bg-white hover:bg-gray-100 text-indigo-700 font-semibold text-lg shadow-lg transition duration-300"

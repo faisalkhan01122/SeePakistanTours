@@ -9,7 +9,8 @@ const socialLinks = [
   {
     title: "Instagram",
     href: "https://www.instagram.com/see_pakistantours/",
-    imgSrc: "https://seepakistantours.com//wp-content/uploads/2019/01/Instagram-Icon.png",
+    imgSrc:
+      "https://seepakistantours.com//wp-content/uploads/2019/01/Instagram-Icon.png",
     imgAlt: "Instagram",
   },
   {
@@ -52,7 +53,8 @@ export default function Footer() {
             />
           </a>
           <p className="text-sm text-slate-200 mb-4">
-            Explore the beauty of Pakistan with our premium tour services. Trusted by thousands since 2012.
+            Explore the beauty of Pakistan with our premium tour services.
+            Trusted by thousands since 2012.
           </p>
           <div className="flex gap-4 mt-3">
             {socialLinks.map(({ title, href, iconClass, imgSrc, imgAlt }) => (
@@ -79,23 +81,31 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4 border-b border-primary-600 pb-2">
             Contact Us
           </h3>
-          <p className="text-sm font-medium mb-2 text-primary-600">Speak to our concierge team</p>
+          <p className="text-sm font-medium mb-2 text-primary-600">
+            Speak to our concierge team
+          </p>
           <p className="text-sm mb-2">
             📞{" "}
-            <a href="tel:+923480783052" className="hover:text-primary-400 transition">
-              +92 348 0783 052 
+            <a
+              href="tel:+923480783052"
+              className="hover:text-primary-400 transition"
+            >
+              +92 343 0762 110
             </a>
           </p>
           <p className="text-sm mb-5">
             ✉️{" "}
-            <a href="mailto:sales@seepakistantours.com" className="hover:text-primary-400 transition">
+            <a
+              href="mailto:sales@seepakistantours.com"
+              className="hover:text-primary-400 transition"
+            >
               sales@seepakistantours.com
             </a>
           </p>
           <address className="text-sm text-slate-200 not-italic leading-relaxed">
-            Office E2, 5th Floor, Khalifa Heights,
-            <br />
-            Chaklala Road near Committee Chowk, Rawalpindi
+            {/* Office E2, 5th Floor, Khalifa Heights,
+            <br /> */}
+            DHA Phase 1 Islamabad
           </address>
         </div>
 
@@ -126,7 +136,7 @@ export default function Footer() {
             Facebook Reviews
           </h3>
           <a
-            href="https://www.facebook.com/SeePakistanTours/"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="block rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition"
@@ -146,10 +156,13 @@ export default function Footer() {
       {/* Bottom Footer */}
       <div className="mt-16 text-center text-sm text-slate-300 border-t border-white/10 pt-6">
         <p className="mb-2 max-w-xl mx-auto">
-          See Pakistan Tours brings an opportunity to visit Extraordinary Pakistan with supreme tour services. As pioneers of Tour Operators in Pakistan, we’ve offered top-notch services since 2012.
+          See Pakistan Tours brings an opportunity to visit Extraordinary
+          Pakistan with supreme tour services. As pioneers of Tour Operators in
+          Pakistan, we’ve offered top-notch services since 2012.
         </p>
         <p>
-          <strong>Business Hours:</strong> Mon - Fri: 9am - 7pm | Sat - Sun: 9am - 6pm
+          <strong>Business Hours:</strong> Mon - Fri: 9am - 7pm | Sat - Sun: 9am
+          - 6pm
         </p>
       </div>
     </footer>

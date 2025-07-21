@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const HoneymoonPackagesContent = () => {
   return (
@@ -10,9 +10,9 @@ const HoneymoonPackagesContent = () => {
       <p className="text-lg mb-4 leading-relaxed">
         As the wedding season approaches, we're offering amazing{" "}
         <a
-          href="https://seepakistantours.com/honeymoon-deals/"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#"
+          // target="_blank"
+          // rel="noopener noreferrer"
           className="text-primary-600 font-semibold underline hover:text-primary-500"
         >
           Honeymoon Tour Deals
@@ -43,7 +43,7 @@ const HoneymoonPackagesContent = () => {
         <strong>top honeymoon packages</strong> that you can customize as per
         your preferences. Our{" "}
         <a
-          href="https://seepakistantours.com/honeymoon-deals/"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary-600 font-semibold underline hover:text-primary-500"
@@ -56,9 +56,9 @@ const HoneymoonPackagesContent = () => {
       <ul className="list-disc list-inside text-lg mb-6 text-gray-700">
         <li>
           <a
-            href="https://pakistantourntravel.com/honeymoon-tours/hunza-valley-honeymoon-tour/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
+            // target="_blank"
+            // rel="noopener noreferrer"
             className="text-primary-600 hover:underline"
           >
             Hunza Valley Tour
@@ -66,9 +66,9 @@ const HoneymoonPackagesContent = () => {
         </li>
         <li>
           <a
-            href="https://pakistantourntravel.com/northern-pakistan-tour-packages/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
+            // target="_blank"
+            // rel="noopener noreferrer"
             className="text-primary-600 hover:underline"
           >
             Murree Galliyat Tour
@@ -76,9 +76,9 @@ const HoneymoonPackagesContent = () => {
         </li>
         <li>
           <a
-            href="https://pakistantourntravel.com/tours/swat-valley/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
+            // target="_blank"
+            // rel="noopener noreferrer"
             className="text-primary-600 hover:underline"
           >
             Swat Kalam Tour
@@ -106,7 +106,7 @@ const HoneymoonPackagesContent = () => {
         <li>Murree Basic Tour — 3 Days / 2 Nights</li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default HoneymoonPackagesContent
+export default HoneymoonPackagesContent;

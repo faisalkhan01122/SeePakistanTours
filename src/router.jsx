@@ -17,6 +17,8 @@ import OneDayTourPage from "./pages/OneDayTourPage";
 import ForeignerToursPage from "./pages/ForeignerToursPage";
 import CarRentalspage from "./pages/CarRentalspage";
 import GetQuote from "./pages/GetQuote";
+import ChitralPage from "./pages/ChitralVallyPage";
+import FairyMeadowsContent from "./pages/FairyMeadows";
 
 const router = createBrowserRouter([
   {
@@ -76,8 +78,13 @@ const router = createBrowserRouter([
         element: <ForeignerToursPage />,
       },
       {
-        path:'car-rentals-2',
-        element:<CarRentalspage/>
+        path: "car-rentals-2",
+        element: <CarRentalspage />,
+      },
+
+      {
+        path: "destination/fairy-meadows-pakistan",
+        element: <FairyMeadowsContent />,
       },
       {
         path: "get-a-quote",

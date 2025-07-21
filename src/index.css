@@ -3,3 +3,48 @@
 @tailwind utilities;
 
 
+/* Silk Slider base styles */
+.silkslider {
+  overflow: hidden;
+  position: relative;
+}
+
+.silkslider-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.silkslider-slide {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+/* Custom arrows - add these if you want navigation arrows */
+.silkslider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.silkslider-arrow:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+.silkslider-prev {
+  left: 10px;
+}
+
+.silkslider-next {
+  right: 10px;
+}
