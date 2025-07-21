@@ -1,144 +1,70 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-// import HunzaValleyContent from "../section/HunzaValleyContent";
+import MurreeContent from "../section/MurreeContent";
 
-const HunzaValleyPage = () => {
+const MurreePage = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
 
   const tours = [
     {
       id: 1,
-      title: "Cherry Blossom Hunza & Nagar Valley Tour (BY AIR)",
-      duration: "5 Days 4 Nights",
+      title: "Murree, Nathia Gali & Thandiani Tour",
+      duration: "3 Days 2 Nights",
       image:
-        "https://seepakistantours.com/wp-content/uploads/2022/11/Hunza-Valley-Cherry-Blossom-5-Days-Tour-by-air-580x240.jpg",
+        "https://seepakistantours.com/wp-content/uploads/2022/04/Murree-Thandiani-3-days-tour-580x240.jpg",
       link: "#",
     },
     {
       id: 2,
-      title: "Hunza, Nagar & Naltar Valley Cherry Blossom Tour",
-      duration: "8 Days 7 Nights",
+      title: "Neelum Valley & Nathia Gali Tour",
+      duration: "5 Days 4 Nights",
       image:
-        "https://seepakistantours.com/wp-content/uploads/2022/11/Hunza-Cherry-Blossom-8-Days-Tour-580x240.jpg",
+        "https://seepakistantours.com/wp-content/uploads/2022/04/Neelum-Galyat-5-Days-Tour-580x240.jpg",
       link: "#",
     },
     {
       id: 3,
-      title: "Hunza, Minapin & Nagar Valley Cherry Blossom Tour",
-      duration: "7 Days 6 Nights",
+      title: "Murree, Nathia Gali & Swat Valley Couple Tour",
+      duration: "5 Days 4 Nights",
       image:
-        "https://seepakistantours.com/wp-content/uploads/2022/11/Hunza-Cherry-Blossom-7-Days-Tour-580x240.jpg",
+        "https://seepakistantours.com/wp-content/uploads/2019/02/Malam-Jabba-Nathia-Gali-5-Days-Tour-580x240.jpg",
       link: "#",
     },
     {
       id: 4,
-      title: "Hunza, Attabad Lake & Hopper Tours (BY AIR)",
-      duration: "6 Days 5 Nights",
+      title: "Neelum Valley, Murree & Nathia Gali Tour",
+      duration: "4 Days 3 Nights",
       image:
-        "https://seepakistantours.com/wp-content/uploads/2022/11/Hunza-Valley-6-Days-Tour-by-air-580x240.jpg",
+        "https://seepakistantours.com/wp-content/uploads/2019/02/Neelum-Galyat-Tour-4-Days-Tour-580x240.jpg",
       link: "#",
     },
     {
       id: 5,
-      title: "Hunza, Hopper & Naltar Valley Tours (BY AIR)",
-      duration: "5 Days 4 Nights",
+      title: "Murree & Shogran Tour",
+      duration: "3 Days 2 Nights",
       image:
-        "https://seepakistantours.com/wp-content/uploads/2022/11/Hunza-Valley-5-Days-Tour-by-air-580x240.jpg",
+        "https://seepakistantours.com/wp-content/uploads/2019/02/Shogran-Murree-3-Days-tour-580x240.jpg",
       link: "#",
     },
     {
       id: 6,
-      title: "Fairy Meadows & Hunza Valley Tour (BY AIR)",
-      duration: "7 Days 6 Nights",
+      title: "Patriata, Murree and Nathia Gali Tour",
+      duration: "3 Days 2 Nights",
       image:
-        "https://seepakistantours.com/wp-content/uploads/2022/11/Fairy-Meadows-Hunza-by-air-7-Days-tour-580x240.jpg",
-      link: "#",
-    },
-    {
-      id: 7,
-      title: "Fairy Meadows, Hunza & Skardu Valley Tour (BY AIR)",
-      duration: "10 Days 9 Nights",
-      image:
-        "https://seepakistantours.com/wp-content/uploads/2022/11/Fairy-Meadows-Skardu-Hunza-by-air-9-Days-tour-580x240.jpg",
-      link: "#",
-    },
-    {
-      id: 8,
-      title: "Fairy Meadows, Skardu Valley & Hunza Valley Tour",
-      duration: "12 Days 11 Nights",
-      image:
-        "https://seepakistantours.com/wp-content/uploads/2022/11/Fairy-Meadows-Skardu-Hunza-12-Days-tour-580x240.jpg",
-      link: "#",
-    },
-    {
-      id: 9,
-      title: "Fairy Meadows, Skardu Valley & Hunza Valley Tour",
-      duration: "15 Day 14 Nights",
-      image:
-        "https://seepakistantours.com/wp-content/uploads/2022/11/Fairy-Meadows-Skardu-Hunza-15-Days-tour-580x240.jpg",
-      link: "#",
-    },
-    {
-      id: 10,
-      title: "Chitral Kalash, Shandur & Hunza Summer Tour",
-      duration: "11 Days 10 Nights",
-      image:
-        "https://seepakistantours.com/wp-content/uploads/2022/11/Chitral-Shandur-Hunza-Naran-11-Days-Tour-580x240.jpg",
-      link: "#",
-    },
-    {
-      id: 11,
-      title: "Chitral, Kalash & Hunza Winter Tour",
-      duration: "10 Days 9 Nights",
-      image:
-        "https://seepakistantours.com/wp-content/uploads/2022/11/Chitral-Hunza-winter-10-Days-Tour-1-580x240.webp",
-      link: "#",
-    },
-    {
-      id: 12,
-      title: "Hunza, Khunjerab Pass & Naltar Tour (BY AIR)",
-      duration: "4 Days 3 Nights",
-      image:
-        "https://seepakistantours.com/wp-content/uploads/2022/04/Hunza-3-Days-580x240.jpg",
-      link: "#",
-    },
-    {
-      id: 13,
-      title: "Fairy Meadows, Hunza & Khunjerab Pass Tour",
-      duration: "8 Days 7 Nights",
-      image:
-        "https://seepakistantours.com/wp-content/uploads/2019/03/Fairy-meadows-Hunza-8-Days-Tour-580x240.jpg",
-      link: "#",
-    },
-    {
-      id: 14,
-      title: "Hunza, Attabad Lake & Naltar Valley Deluxe Tour",
-      duration: "6 Days 5 Nights",
-      image:
-        "https://seepakistantours.com/wp-content/uploads/2019/02/Hunza-Valley-6-Days-Tour-580x240.jpg",
-      link: "#",
-    },
-    {
-      id: 15,
-      title: "Hunza, Naran & Shogran Summer Tour",
-      duration: "10 Day 9 Nights",
-      image:
-        "https://seepakistantours.com/wp-content/uploads/2019/02/Hunza-Naran-Shogran-10-Days-summer-Tour-580x240.jpg",
+        "https://seepakistantours.com/wp-content/uploads/2018/02/Murree-Basic-3-days-Tour-580x240.jpg",
       link: "#",
     },
   ];
 
   const popularPlaces = [
-    "Baltit Fort",
-    "Borith Lake",
-    "Rakaposhi View Point",
-    "Altit Fort",
-    "Attabad Lake",
-    "Karimabad Market",
-    "Passu Cones and Glacier",
-    "Rush Lake",
-    "Global village",
-    "Khunjerab Pass",
+    "Kashmir Point",
+    "Pindi Point",
+    "Ayubia",
+    "Nathia Gali",
+    "Mall Road",
+    "New Murree",
+    "Bhurban",
+    "Patriata",
   ];
 
   const cardVariants = {
@@ -160,8 +86,8 @@ const HunzaValleyPage = () => {
       {/* Hero Section */}
       <div className="relative h-[100vh] overflow-hidden">
         <img
-          src="https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Hunza-Valley.jpg"
-          alt="Hunza Valley"
+          src="https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Murree-Nathia-Gali.jpg"
+          alt="Murree"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
@@ -172,11 +98,11 @@ const HunzaValleyPage = () => {
             className="text-center px-4"
           >
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-              Hunza Valley Tours 2025
+              Murree Tours 2025
             </h1>
             <p className="text-xl text-white max-w-2xl mx-auto">
-              Explore the breathtaking beauty of Hunza Valley with our exclusive
-              tour packages
+              Explore the breathtaking beauty of Murree with our exclusive tour
+              packages
             </p>
           </motion.div>
         </div>
@@ -193,27 +119,22 @@ const HunzaValleyPage = () => {
               className="mb-12"
             >
               <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                Hunza Valley Tours 2025 With Affordable Hunza Tour Packages
+                Murree Tours 2025, with exciting Murree tour packages
               </h2>
               <p className="text-gray-600 mb-4">
-                Hunza Valley tours are the best demanded tours by travelers to
-                explore in Hunza tour packages 2025 by See Pakistan Tours. Under
-                the shadows of mighty mountains, Hunza Valley lies in
-                Gilgit-Baltistan of Pakistan situated in the extreme part of
-                Northern Pakistan, Hunza Valley borders Xinjiang of China and
-                the Wakhan Corridor of Afghanistan.
+                Undoubtedly, <strong>Murree Tours 2025</strong> are the most
+                popular these days as the summer trips begin to start. Murree,
+                also known as "The Queen of Mountains" is located in the Galyat
+                region and within the Rawalpindi District of Punjab, Pakistan.
+                With an altitude of 2,291 meters, Murree is about 30KM from
+                Islamabad Capital city.
               </p>
               <p className="text-gray-600 mb-4">
-                Hunza Valley is one of the most beautiful tourist location in
-                Pakistan. Karimabad is the central town and a popular tourist
-                attraction in Hunza.
-              </p>
-              <p className="text-gray-600 mb-4">
-                Hunza tours 2025 are very popular and a must visit location for
-                the tourists visiting the northern areas of Pakistan because of
-                its beauty, diversity, friendliness and hospitality of the
-                people. See Pakistan Tours offers a variety of Hunza Valley tour
-                packages 2025 for this season.
+                Furthermore, Murree Tours have always been cherishing and joyful
+                amongst the travellers within Pakistan and the tourists visiting
+                Pakistan from abroad. Why not? Murree is an exciting place to
+                visit and has some of the most attractive tourist's points like
+                the famous mall road, Chairlifts, Pindi & Kashmir points.
               </p>
             </motion.div>
 
@@ -269,44 +190,10 @@ const HunzaValleyPage = () => {
               </div>
             </div>
 
-            {/* Group Tours Section */}
-            <div className="mb-12">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">
-                Group Tours & Trips 2025-26
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <motion.div
-                  variants={cardVariants}
-                  initial="initial"
-                  whileHover="hover"
-                  className="bg-white rounded-xl overflow-hidden shadow-md"
-                >
-                  <a href="#" className="block">
-                    <div className="relative h-48 overflow-hidden">
-                      <img
-                        src="https://seepakistantours.com/wp-content/uploads/2023/04/Hunza-Valley-Family-Group-Tour-580x240.jpg"
-                        alt="Hunza Family Group Tour"
-                        className="w-full h-full object-cover"
-                      />
-                      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent h-20"></div>
-                      <div className="absolute bottom-3 left-3 bg-primary-600 text-white px-3 py-1 rounded-md text-sm font-medium">
-                        Tour Date: <strong>Expired</strong>
-                      </div>
-                    </div>
-                    <div className="p-4">
-                      <h3 className="text-lg font-semibold text-gray-800">
-                        Hunza Family Group Tour
-                      </h3>
-                    </div>
-                  </a>
-                </motion.div>
-              </div>
-            </div>
-
             {/* Popular Places */}
             <div className="mb-12">
               <h3 className="text-2xl font-semibold text-gray-800 mb-6">
-                Beautiful Places to Visit in Hunza Valley
+                Beautiful Places to Visit in Murree
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
                 {popularPlaces.map((place, index) => (
@@ -324,21 +211,14 @@ const HunzaValleyPage = () => {
             {/* Weather Info */}
             <div className="bg-white p-6 rounded-xl shadow-sm mb-8">
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-                Weather in Hunza Valley
+                Weather in Murree
               </h3>
               <p className="text-gray-600 mb-4">
-                Hunza Tours are favorite among the tourists visiting Pakistan as
-                affordable and luxurious hotels and delicious food lure the
-                tourists to visit Hunza valley. Moreover, tourists visit
-                especially in summer when the weather of Hunza valley becomes
-                friendly as compared to the other cities of the country.
-              </p>
-              <p className="text-gray-600 mb-4">
-                However, Hunza Valley has different seasons that affect
-                marvelous Hunza Valley to change its colors. In Cherry Blossom,
-                Hunza has some mesmerizing views with white and pink colors all
-                over the valley. Furthermore, fall time can turn the whole
-                valley into a Golden color.
+                Weather in Murree remains pleasant most of the year except Jan-
+                March where heavy snowfall occurs and the temperature falls down
+                to -1 degree. Moreover, the average temperature in Murree is 15
+                degrees from April- Oct which is ideal for the tourists visiting
+                from warm areas of the country and abroad.
               </p>
               <div className="flex flex-wrap gap-4 mt-6">
                 <div className="flex-1 min-w-[200px] bg-blue-50 p-4 rounded-lg">
@@ -346,9 +226,9 @@ const HunzaValleyPage = () => {
                     <div className="text-primary-600 text-3xl">☀️</div>
                     <div>
                       <h4 className="font-medium text-gray-800">
-                        Summer (May-Sep)
+                        Summer (Apr-Oct)
                       </h4>
-                      <p className="text-gray-600 text-sm">15°C to 30°C</p>
+                      <p className="text-gray-600 text-sm">15°C average</p>
                     </div>
                   </div>
                 </div>
@@ -357,9 +237,9 @@ const HunzaValleyPage = () => {
                     <div className="text-primary-600 text-3xl">❄️</div>
                     <div>
                       <h4 className="font-medium text-gray-800">
-                        Winter (Nov-Feb)
+                        Winter (Jan-Mar)
                       </h4>
-                      <p className="text-gray-600 text-sm">-5°C to 15°C</p>
+                      <p className="text-gray-600 text-sm">-1°C to 10°C</p>
                     </div>
                   </div>
                 </div>
@@ -410,7 +290,7 @@ const HunzaValleyPage = () => {
                         </svg>
                       ))}
                     </div>
-                    <span className="font-medium">3.5/5</span>
+                    <span className="font-medium">4.5/5</span>
                   </div>
                 </div>
                 <div className="flex items-center justify-between py-3 border-b border-gray-100">
@@ -419,7 +299,7 @@ const HunzaValleyPage = () => {
                 </div>
                 <div className="flex items-center justify-between py-3 border-b border-gray-100">
                   <span className="text-gray-600">Duration</span>
-                  <span className="font-medium">3-15 days</span>
+                  <span className="font-medium">3-5 days</span>
                 </div>
                 <div className="flex items-center justify-between py-3 border-b border-gray-100">
                   <span className="text-gray-600">Starting From</span>
@@ -469,9 +349,9 @@ const HunzaValleyPage = () => {
           </div>
         </div>
       </div>
-      {/* <HunzaValleyContent /> */}
+      <MurreeContent />
     </div>
   );
 };
 
-export default HunzaValleyPage;
+export default MurreePage;
