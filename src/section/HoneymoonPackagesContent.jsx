@@ -18,7 +18,7 @@ const HoneymoonPackagesContent = () => {
           Honeymoon Tour Deals
         </a>{" "}
         so couples can enjoy the perfect time with their spouse. Explore our
-        Pakistan Travel Packages tailored for honeymooners. See Pakistan Tours
+        Pakistan Travel Packages tailored for honeymooners. Zufta Travels
         provides affordable trips and premium services to the breathtaking
         northern areas of Pakistan — from Swat to Hunza to Murree — offering
         full privacy and comfort.
@@ -39,7 +39,7 @@ const HoneymoonPackagesContent = () => {
       <p className="text-lg mb-4 leading-relaxed">
         Whether it's a scenic adventure, a quiet retreat, or stargazing under
         clear skies — now is the best time to plan your dream honeymoon.{" "}
-        <strong>See Pakistan Tours</strong> proudly presents a list of{" "}
+        <strong>Zufta Travels</strong> proudly presents a list of{" "}
         <strong>top honeymoon packages</strong> that you can customize as per
         your preferences. Our{" "}
         <a

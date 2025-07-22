@@ -156,9 +156,9 @@ export default function Footer() {
       {/* Bottom Footer */}
       <div className="mt-16 text-center text-sm text-slate-300 border-t border-white/10 pt-6">
         <p className="mb-2 max-w-xl mx-auto">
-          See Pakistan Tours brings an opportunity to visit Extraordinary
-          Pakistan with supreme tour services. As pioneers of Tour Operators in
-          Pakistan, we’ve offered top-notch services since 2012.
+          Zufta Travels brings an opportunity to visit Extraordinary Pakistan
+          with supreme tour services. As pioneers of Tour Operators in Pakistan,
+          we’ve offered top-notch services since 2012.
         </p>
         <p>
           <strong>Business Hours:</strong> Mon - Fri: 9am - 7pm | Sat - Sun: 9am

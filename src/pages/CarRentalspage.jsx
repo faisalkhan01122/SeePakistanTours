@@ -273,7 +273,7 @@ const CarRentalspage = () => {
 
               <p className="text-gray-600 mb-4 leading-relaxed">
                 <span className="text-prim6bg-primary-600 font-medium">
-                  See Pakistan Tours
+                  Zufta Travels
                 </span>{" "}
                 now offers the best Rent a car service in Islamabad for your
                 trips and tours. Islamabad is the second most beautiful capital

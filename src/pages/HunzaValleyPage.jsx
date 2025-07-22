@@ -197,8 +197,8 @@ const HunzaValleyPage = () => {
               </h2>
               <p className="text-gray-600 mb-4">
                 Hunza Valley tours are the best demanded tours by travelers to
-                explore in Hunza tour packages 2025 by See Pakistan Tours. Under
-                the shadows of mighty mountains, Hunza Valley lies in
+                explore in Hunza tour packages 2025 by Zufta Travels. Under the
+                shadows of mighty mountains, Hunza Valley lies in
                 Gilgit-Baltistan of Pakistan situated in the extreme part of
                 Northern Pakistan, Hunza Valley borders Xinjiang of China and
                 the Wakhan Corridor of Afghanistan.
@@ -212,7 +212,7 @@ const HunzaValleyPage = () => {
                 Hunza tours 2025 are very popular and a must visit location for
                 the tourists visiting the northern areas of Pakistan because of
                 its beauty, diversity, friendliness and hospitality of the
-                people. See Pakistan Tours offers a variety of Hunza Valley tour
+                people. Zufta Travels offers a variety of Hunza Valley tour
                 packages 2025 for this season.
               </p>
             </motion.div>

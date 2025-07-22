@@ -8,7 +8,7 @@ const LoadingScreen = ({ onComplete }) => {
   const [currentStep, setCurrentStep] = useState(0);
 
   const loadingSteps = [
-    "Initializing See Pakistan Tours...",
+    "Initializing Zufta Travels...",
     "Loading unforgettable destinations...",
     "Preparing travel guides and itineraries...",
     "Finalizing your custom tour experience...",
@@ -61,7 +61,7 @@ const LoadingScreen = ({ onComplete }) => {
           <div className="relative mx-auto w-24 h-24 mb-4">
             <img
               src="/zuftalogo.png"
-              alt="See Pakistan Tours"
+              alt="Zufta Travels"
               className="w-full h-full object-contain rounded-full shadow-2xl"
             />
             <div className="absolute -inset-2 bg-gradient-to-r from-white/30 to-white/10 rounded-full animate-spin-slow"></div>
@@ -72,7 +72,7 @@ const LoadingScreen = ({ onComplete }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
           >
-            See Pakistan Tours
+            Zufta Travels
           </motion.h1>
           <motion.p
             className="text-yellow-800 text-md font-semibold"

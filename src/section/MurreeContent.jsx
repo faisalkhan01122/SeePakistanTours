@@ -13,13 +13,12 @@ const MurreeContent = () => {
             className="bg-white p-6 rounded-xl shadow-sm mb-8"
           >
             <h2 className="text-2xl font-bold text-gray-800 mb-4">
-              Plan A Murree Tour 2025 With See Pakistan Tours
+              Plan A Murree Tour 2025 With Zufta Travels
             </h2>
             <p className="text-gray-600 mb-4">
-              See Pakistan Tours is the leader in the travel and tour industry
-              in Pakistan. Like always See Pakistan tours and travel offers,
-              Murree tour packages 2025 with the best travel and tour services
-              in Pakistan.
+              Zufta Travels is the leader in the travel and tour industry in
+              Pakistan. Like always Zufta Travels and travel offers, Murree tour
+              packages 2025 with the best travel and tour services in Pakistan.
             </p>
             <p className="text-gray-600 mb-4">
               We offer economy and luxury Murree tour packages 2025 which

@@ -15,9 +15,9 @@ const SwatValleyContent = () => {
               a hidden paradise for travelers. Because of its mesmerizing views
               in different valleys. Furthermore, Swat Valley Tours along with
               Kalam tours and Malam Jabba tours make the whole trip, even more,
-              cherished and enjoy. To explore such beauty, See Pakistan tours
-              present affordable and luxury Swat tour packages under Pakistan
-              tour packages.
+              cherished and enjoy. To explore such beauty, Zufta Travels present
+              affordable and luxury Swat tour packages under Pakistan tour
+              packages.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-800 mb-4 mt-8">
@@ -35,8 +35,8 @@ const SwatValleyContent = () => {
               takes almost 5 hours to reach and enjoy eyecatching Swat tours.
             </p>
             <p className="text-gray-600 mb-4 italic">
-              <strong>Swat Tour Packages See Pakistan Tours</strong> is one of
-              the hot-selling tour plans throughout the year.
+              <strong>Swat Tour Packages Zufta Travels</strong> is one of the
+              hot-selling tour plans throughout the year.
             </p>
             <p className="text-gray-600 mb-4">
               Whether it's{" "}
@@ -331,7 +331,7 @@ const SwatValleyContent = () => {
               </div>
               <div className="flex items-center justify-between py-3 border-b border-gray-100">
                 <span className="text-gray-600">Brand Name</span>
-                <span className="font-medium">See Pakistan Tours</span>
+                <span className="font-medium">Zufta Travels</span>
               </div>
               <div className="flex items-center justify-between py-3 border-b border-gray-100">
                 <span className="text-gray-600">Adventure Tour</span>

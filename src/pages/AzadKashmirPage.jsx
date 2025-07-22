@@ -97,7 +97,7 @@ const AzadKashmirPage = () => {
             transition={{ duration: 0.8 }}
             className="text-center px-4"
           >
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+            <h1 className="text-3xl md:text-6xl font-bold text-white mb-4">
               Azad Kashmir Tours 2025
             </h1>
             <p className="text-xl text-white max-w-2xl mx-auto">
