@@ -140,7 +140,7 @@ const FairyMeadowsContent = () => {
         <motion.p className="text-gray-600 mb-6 leading-relaxed">
           In our{" "}
           <strong className="text-primary-600">
-            Pakistan tour packages 2025
+            Zufta Tarvel Packages 2025
           </strong>
           , we offer some of the most mesmerizing Fairy Meadows tour packages to
           explore this natural wonder. The journey to Fairy Meadows is as

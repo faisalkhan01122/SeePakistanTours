@@ -5,67 +5,67 @@ const destinations = [
     title: "1 Day Tours",
     image:
       "https://seepakistantours.com/wp-content/uploads/2022/12/1-Day-580x240.jpg",
-    link: "#",
+    link: "/destination/chitral-valley-tours",
   },
   {
     title: "Azad Kashmir Tours",
     image:
       "https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Azad-Kashmir-580x240.jpg",
-    link: "#",
+    link: "/destination/azad-kashmir-tours",
   },
   {
     title: "Chitral Valley Tours",
     image:
       "https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Chitral-Valley-580x240.jpg",
-    link: "#",
+    link: "/destination/chitral-valley-tours",
   },
   {
     title: "Fairy Meadows Tours",
     image:
       "https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Fairy-Meadows-580x240.jpg",
-    link: "#",
+    link: "/destination/fairy-meadows-pakistan",
   },
   {
     title: "Foreigner Tours",
     image:
       "https://seepakistantours.com/wp-content/uploads/2022/12/Foreigner-Tours-1-580x240.jpg",
-    link: "#",
+    link: "/destination/murree-tours",
   },
   {
     title: "Hunza Valley Tours",
     image:
       "https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Hunza-Valley-580x240.jpg",
-    link: "#",
+    link: "/destination/hunza-valley-tours",
   },
   {
     title: "Murree Tours",
     image:
       "https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Murree-Nathia-Gali-580x240.jpg",
-    link: "#",
+    link: "/destination/murree-tours",
   },
   {
     title: "Naran Kaghan Tours",
     image:
       "https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Naran-Kaghan-580x240.jpg",
-    link: "#",
+    link: "/destination/naran-kaghan-tours",
   },
   {
     title: "Neelum Valley Tours",
     image:
       "https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Azad-Kashmir-580x240.jpg",
-    link: "#",
+    link: "/destination/naran-kaghan-tours",
   },
   {
     title: "Skardu Valley Tours",
     image:
       "https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Skardu-Valley-580x240.jpg",
-    link: "#",
+    link: "/destination/skardu-valley-tours",
   },
   {
     title: "Swat Valley Tours",
     image:
       "https://seepakistantours.com/wp-content/uploads/2022/04/Destination-Swat-Valley-580x240.jpg",
-    link: "#",
+    link: "/destination/swat-valley-tours",
   },
 ];
 

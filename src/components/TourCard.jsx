@@ -7,8 +7,8 @@ export default function TourCard({ tour }) {
   return (
     <motion.a
       href={link}
-      target="_blank"
-      rel="noopener noreferrer"
+      // target="_blank"
+      // rel="noopener noreferrer"
       whileHover={{ scale: 1.03 }}
       whileTap={{ scale: 0.98 }}
       className="relative rounded-xl overflow-hidden shadow-lg group transition-all"
@@ -20,7 +20,7 @@ export default function TourCard({ tour }) {
       >
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent group-hover:opacity-90 transition-opacity duration-300" />
-        
+
         {/* Text overlay */}
         <div className="absolute bottom-4 left-4 right-4">
           <div className="backdrop-blur-md bg-white/10 rounded-lg px-4 py-3 shadow-md">

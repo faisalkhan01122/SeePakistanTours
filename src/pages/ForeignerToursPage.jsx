@@ -242,17 +242,17 @@ const ForeignerToursPage = () => {
               className="mb-16"
             >
               <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                Exciting Pakistan Tour Packages 2025 For Foreign Tourists
+                Exciting Zufta Tarvel Packages 2025 For Foreign Tourists
               </h2>
 
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Being one of the best tour operators in Pakistan, See Pakistan
-                Tours offers many adventurous Pakistan tour packages 2025 for
-                foreign tourists visiting Pakistan.
+                Being one of the best tour operators in Pakistan, Zufta Tras
+                offers many adventurous Zufta Tarvel Packages 2025 for foreign
+                tourists visiting Pakistan.
               </p>
 
               <p className="text-gray-600 mb-4 leading-relaxed">
-                We have pre-planned foreigner tours in Pakistan tour packages
+                We have pre-planned foreigner tours in Zufta Tarvel Packages
                 specifically designed for international visitors. In 2018,
                 around 1.9 million foreign travelers visited Pakistan and
                 labeled it as one of the{" "}
@@ -263,7 +263,7 @@ const ForeignerToursPage = () => {
               </p>
 
               <p className="text-gray-600 mb-6 leading-relaxed">
-                These Pakistan tour packages for foreigners cover almost every
+                These Zufta Tarvel Packages for foreigners cover almost every
                 famous place in Northern Pakistan. Travelers can explore the
                 three highest mountain ranges - Himalaya, Hindukush, and
                 Karakoram. Moreover, they can experience the rich culture,
@@ -388,11 +388,8 @@ const ForeignerToursPage = () => {
                   <p className="text-gray-600 mb-6 leading-relaxed">
                     Following are some of the most visited historical and
                     beautiful tourist places in Pakistan included in our{" "}
-                    <a
-                      href="https://seepakistantours.com"
-                      className="text-primary-600 hover:underline"
-                    >
-                      Pakistan Tour Packages 2025
+                    <a href="/" className="text-primary-600 hover:underline">
+                      Zufta Tarvel Packages 2025
                     </a>
                     .
                   </p>
@@ -489,9 +486,12 @@ const ForeignerToursPage = () => {
                 </div>
               </div>
               <div className="p-4 bg-gray-50">
-                <button className="w-full bg-primary-600 hover:bg-primary-400 text-white py-3 px-4 rounded-lg font-medium transition-colors">
+                <a
+                  href="/get-a-quote"
+                  className="w-full bg-primary-600 hover:bg-primary-400 text-white py-3 px-4 rounded-lg font-medium transition-colors"
+                >
                   Book Now
-                </button>
+                </a>
               </div>
             </motion.div>
 
@@ -559,13 +559,13 @@ const ForeignerToursPage = () => {
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <a
-                  href="get-a-quote"
+                  href="/get-a-quote"
                   className="bg-white text-primary-600 px-6 py-3 rounded-lg font-medium hover:bg-primary-800 transition-colors text-lg"
                 >
                   Book Your Tour Now
                 </a>
                 <a
-                  href="#contact"
+                  href="/get-a-quote"
                   className="bg-transparent border border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-primary-600 transition-colors text-lg"
                 >
                   Get More Information

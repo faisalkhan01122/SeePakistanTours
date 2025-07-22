@@ -12,7 +12,7 @@ const ChitralPage = () => {
       duration: "8 Days 7 Nights",
       image:
         "https://seepakistantours.com/wp-content/uploads/2022/11/Chitral-Kalam-8-Days-tour-580x240.jpg",
-      link: "#",
+      link: "/destination/chitral-valley-tours",
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ const ChitralPage = () => {
       duration: "11 Days 10 Nights",
       image:
         "https://seepakistantours.com/wp-content/uploads/2022/11/Chitral-Shandur-Hunza-Naran-11-Days-Tour-580x240.jpg",
-      link: "#",
+      link: "/destination/chitral-valley-tours",
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ const ChitralPage = () => {
       duration: "10 Days 9 Nights",
       image:
         "https://seepakistantours.com/wp-content/uploads/2022/11/Chitral-Hunza-winter-10-Days-Tour-1-580x240.webp",
-      link: "#",
+      link: "/destination/chitral-valley-tours",
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ const ChitralPage = () => {
       duration: "7 Days 6 Nights",
       image:
         "https://seepakistantours.com/wp-content/uploads/2022/11/Kalash-7-days-tour-580x240.jpg",
-      link: "#",
+      link: "/destination/swat-valley-tours",
     },
     {
       id: 5,
@@ -44,7 +44,7 @@ const ChitralPage = () => {
       duration: "6 Days 5 Nights",
       image:
         "https://seepakistantours.com/wp-content/uploads/2022/11/Chitral-Kalash-shandur-6-Days-Tour-580x240.jpg",
-      link: "#",
+      link: "/destination/chitral-valley-tours",
     },
     {
       id: 6,
@@ -52,7 +52,7 @@ const ChitralPage = () => {
       duration: "4 Days 3 Nights",
       image:
         "https://seepakistantours.com/wp-content/uploads/2022/11/Chitral-Kalash-4-Days-Tour-580x240.jpg",
-      link: "#",
+      link: "/destination/chitral-valley-tours",
     },
   ];
 
@@ -309,9 +309,12 @@ const ChitralPage = () => {
                 </div>
               </div>
               <div className="p-4 bg-gray-50">
-                <button className="w-full bg-primary-600 hover:bg-primary-400 text-white py-3 px-4 rounded-lg font-medium transition-colors">
+                <a
+                  href="/get-a-quote"
+                  className="w-full bg-primary-600 hover:bg-primary-400 text-white py-3 px-4 rounded-lg font-medium transition-colors"
+                >
                   Book Now
-                </button>
+                </a>
               </div>
             </motion.div>
 

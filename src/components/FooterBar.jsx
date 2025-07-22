@@ -6,7 +6,7 @@ const FooterBar = () => {
     <>
       {/* WhatsApp Icon */}
       <motion.a
-        href="https://wa.me/923480783052"
+        href="https://wa.me/923430762110"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-5 left-6 z-50 bg-green-500 hover:bg-green-600 p-3 sm:p-4 md:p-5 rounded-full shadow-2xl transition-all duration-300 group"

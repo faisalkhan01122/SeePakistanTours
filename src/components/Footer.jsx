@@ -87,7 +87,7 @@ export default function Footer() {
           <p className="text-sm mb-2">
             📞{" "}
             <a
-              href="tel:+923480783052"
+              href="tel:+923430762110"
               className="hover:text-primary-400 transition"
             >
               +92 343 0762 110
@@ -96,10 +96,10 @@ export default function Footer() {
           <p className="text-sm mb-5">
             ✉️{" "}
             <a
-              href="mailto:sales@seepakistantours.com"
+              href="mailto:info@zuftatravels.site"
               className="hover:text-primary-400 transition"
             >
-              sales@seepakistantours.com
+              info@zuftatravels.site
             </a>
           </p>
           <address className="text-sm text-slate-200 not-italic leading-relaxed">

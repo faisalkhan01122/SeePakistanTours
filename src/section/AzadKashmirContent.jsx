@@ -102,7 +102,7 @@ const AzadKashmirContent = () => {
           <strong className="text-primary-600">Azad Kashmir Tours</strong> is
           always excited for tourists from Pakistan and abroad when getting a
           chance to visit AJK. Most of the travelers get the Azad Kashmir tours
-          package along with Pakistan tour packages.
+          package along with Zufta Tarvel Packages.
         </motion.p>
 
         <motion.p className="text-gray-600 mb-4 leading-relaxed">

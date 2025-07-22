@@ -214,7 +214,7 @@ const SkarduContent = () => {
             </p>
             <p className="text-gray-600 mb-4">
               So Check out the list of Skardu Valley tours in{" "}
-              <strong>Pakistan tour packages 2025</strong> to enjoy the best of
+              <strong>Zufta Tarvel Packages 2025</strong> to enjoy the best of
               your time to get some unforgettable pictures in your mind and
               heart with your loved ones.
             </p>

@@ -282,10 +282,9 @@ const SwatValleyContent = () => {
               As we offer <strong>Swat Valley Tours</strong> under{" "}
               <strong>Swat tour packages</strong> ranging from short to long and
               standard to deluxe tour packages. So grab one of the{" "}
-              <strong>best Pakistan tour packages in 2025</strong> that suits
-              you the most. Enjoy the best of your time in the marvelous lush
-              green and forests valleys of Swat in the northern areas of
-              Pakistan.
+              <strong>best Zufta Tarvel Packages in 2025</strong> that suits you
+              the most. Enjoy the best of your time in the marvelous lush green
+              and forests valleys of Swat in the northern areas of Pakistan.
             </p>
             <p className="text-gray-600 mb-4">
               Along with these natural sightseeing areas, wanderers can also

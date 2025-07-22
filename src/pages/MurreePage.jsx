@@ -313,9 +313,12 @@ const MurreePage = () => {
                 </div>
               </div>
               <div className="p-4 bg-gray-50">
-                <button className="w-full bg-primary-600 hover:bg-primary-400 text-white py-3 px-4 rounded-lg font-medium transition-colors">
+                <a
+                  href="/get-a-quote"
+                  className="w-full bg-primary-600 hover:bg-primary-400 text-white py-3 px-4 rounded-lg font-medium transition-colors"
+                >
                   Book Now
-                </button>
+                </a>
               </div>
             </motion.div>
 

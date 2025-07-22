@@ -125,7 +125,7 @@ const SkarduPage = () => {
                 <strong>Skardu Valley Tours</strong> is always excited for
                 tourists from Pakistan and abroad when getting a chance to visit
                 this magnificent region. Most of the travelers get the Skardu
-                tours package along with Pakistan tour packages.
+                tours package along with Zufta Tarvel Packages.
               </p>
               <p className="text-gray-600 mb-4">
                 Skardu Valley lies under the shadows of eight-thousander
@@ -310,9 +310,12 @@ const SkarduPage = () => {
                 </div>
               </div>
               <div className="p-4 bg-gray-50">
-                <button className="w-full bg-primary-600 hover:bg-primary-400 text-white py-3 px-4 rounded-lg font-medium transition-colors">
+                <a
+                  href="/get-a-quote"
+                  className="w-full bg-primary-600 hover:bg-primary-400 text-white py-3 px-4 rounded-lg font-medium transition-colors"
+                >
                   Book Now
-                </button>
+                </a>
               </div>
             </motion.div>
 

@@ -125,7 +125,7 @@ const AzadKashmirPage = () => {
                 <strong>Azad Kashmir Tours</strong> is always excited for
                 tourists from Pakistan and abroad when getting a chance to visit
                 AJK. Most of the travelers get the Azad Kashmir tours package
-                along with Pakistan tour packages.
+                along with Zufta Tarvel Packages.
               </p>
               <p className="text-gray-600 mb-4">
                 Commonly, known to be AJK, Azad Jammu and Kashmir is in the
@@ -314,9 +314,12 @@ const AzadKashmirPage = () => {
                 </div>
               </div>
               <div className="p-4 bg-gray-50">
-                <button className="w-full bg-primary-600 hover:bg-primary-400 text-white py-3 px-4 rounded-lg font-medium transition-colors">
+                <a
+                  href="/get-a-quote"
+                  className="w-full bg-primary-600 hover:bg-primary-400 text-white py-3 px-4 rounded-lg font-medium transition-colors"
+                >
                   Book Now
-                </button>
+                </a>
               </div>
             </motion.div>
 
