@@ -52,7 +52,7 @@ export default function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <img
-            src="https://seepakistantours.com/wp-content/themes/seepakistanvt-child/img/seepakistan-logo.png"
+            src="/zuftalogo.png"
             alt="See Pakistan Tours"
             className="h-16 "
           />

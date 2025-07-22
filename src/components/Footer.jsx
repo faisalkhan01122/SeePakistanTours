@@ -47,8 +47,8 @@ export default function Footer() {
         <div>
           <a href="/">
             <img
-              src="https://seepakistantours.com/wp-content/themes/seepakistanvt-child/img/spt-logo-web.png"
-              alt="See Pakistan Tours"
+              src="/zuftalogo.png"
+              alt="Zufta Pakistan Tours"
               className="w-44 mb-4"
             />
           </a>

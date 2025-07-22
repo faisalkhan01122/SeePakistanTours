@@ -60,7 +60,7 @@ const LoadingScreen = ({ onComplete }) => {
         >
           <div className="relative mx-auto w-24 h-24 mb-4">
             <img
-              src="/logo.png"
+              src="/zuftalogo.png"
               alt="See Pakistan Tours"
               className="w-full h-full object-contain rounded-full shadow-2xl"
             />
@@ -85,9 +85,17 @@ const LoadingScreen = ({ onComplete }) => {
         </motion.div>
 
         {/* Progress Circle */}
-        <motion.div className="mb-8" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }}>
+        <motion.div
+          className="mb-8"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1 }}
+        >
           <div className="relative w-28 h-28 mx-auto mb-6">
-            <svg className="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
+            <svg
+              className="w-full h-full transform -rotate-90"
+              viewBox="0 0 100 100"
+            >
               <circle
                 cx="50"
                 cy="50"
