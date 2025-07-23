@@ -143,7 +143,7 @@ const HunzaToursPage = () => {
         reverse
       />
 
-      <motion.div
+      {/* <motion.div
         className="text-center py-12"
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -159,7 +159,7 @@ const HunzaToursPage = () => {
         <button className="bg-primary-500 text-black text-xl font-semibold px-6 py-3 rounded-xl shadow hover:bg-primary-600 transition">
           Explore Packages
         </button>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };
